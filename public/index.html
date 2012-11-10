@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<title>Alexandr Nofoff Resume</title>
+	
+	<link rel="stylesheet" href="/css/bootstrap.css">
+    
+	<!-- <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css"></link>  -->
+	
+	<link rel="stylesheet" type="text/css" href="/css/index.css" />
+	<link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <!--[if lt IE 7]>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+    <![endif]-->
+    <script src="/js/libs/jquery.js"></script>
+</head>
+
+<body>
+	<div class="hero-unit page-header well">
+		<span class="h2 span4">Носов Александр Анатольевич</span>
+		<span class="span3 pull-right">Если ты тут телом, но не душой - сие бесполезно</span>
+	</div>
+	<div class="navbar center" id="navbar"></div>
+	
+	<div class="container">
+		<div class="center pagination-centered span10" id="content"></div>			
+	</div>
+	<div class="bottombar pagination-centered" >
+		<ul class="span4 center">
+			<li>Дата рождения: 17.01.1971</li>
+			<li>Место рождения: Россия г.Новороссийск</li>
+		</ul>
+		<ul class="span4 center">
+			<li>Место жительства: Минск</li>
+			<li>Телефон: МТС +37529-7537947</li>
+		</ul>
+		<ul class="span4">			
+			<li>EMAIL: plcgi1@gmail.com</li>
+			<li>Skype: harper.alex</li>
+		</ul>
+	</div>
+	
+	<script>
+		var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+	
+	<script id="navigationTpl" type="text/html">
+		<div class="navbar-inner center">
+		  <ul class="nav">
+			{{#nav}}
+			<li><a href="#content/{{route}}">{{title}}</a></li>
+			{{/nav}}
+		  </ul>
+		</div>
+	</script>
+		
+	<script id="education" type="text/html">
+		<div class="tl-container">
+			<div class="timeline_container">
+				<div class="timeline">
+				    <div class="plus"></div>
+				</div>
+			</div>
+			
+			<div class="item borderclass">
+				<span class='tl-right-block'></span>
+				<h4>Образование 1986-1990</h4>
+				<ul>
+					<li>Уровень : <span>Среднее техническое</span></li>
+					<li>Учебное учреждение : <a href="http://www.novkrp.ru/" target="_blank">Новороссийский техникум радиоэлектронного приборостроения</a></li>
+					<li>Специальность :<span>радиотехник</li>
+					<li>Вид обучения :<span>дневное</span></li>
+				</ul>
+			</div>
+			
+			<div class="item borderclass">
+			<span class='tl-left-block'></span>
+			<p>
+			<img src="http://www.novkrp.ru/images/nkrpphoto/gallerymain//gallerymain2.jpg"/>
+			<p>
+			
+		</div>
+	</script>
+	<script id="knowledge" type="text/html">
+		<div class="tl-container">
+			<div class="timeline_container">
+				<div class="timeline">
+				    <div class="plus"></div>
+				</div>
+			</div>
+			<div class="item">
+				<span class='tl-right-block'></span>
+				<h4>Иностранные языки</h4>:
+				<ol>
+					<li>Английский : <span class="label label-info">свободное чтение документации</span></li>
+				</ol>
+			</div>
+			<div class="item">
+				<span class='tl-left-block'></span>
+				<h4>Знание операционных систем</h4>
+				<ol>
+					<li>Windows XP : <span class="label label-info">Уровень пользователя</span></li>
+					<li>Linux : <span class="label label-success">Опытный пользователь</span></li>
+					<li>FreeBSD : <span class="label label-success">Опытный пользователь</span></li>	
+				</ul>
+			</div>
+			<div class="item">
+				<span class='tl-right-block'></span>
+				<h4>Базы данных</h4>
+				<ol>
+					<li>MongoDB : <span class="label label-default">Имею общее представление<span></li>
+					<li>MemcachedDB : <span class="label label-info">Опытный пользователь<span></li>
+					<li>Memcached : <span class="label label-success">Уровень программиста</span></li>
+					<li>CouchBase : <span class="label label-default">Имею общее представление</span></li>
+					<li>MySQL : <span class="label label-success">Уровень программиста</span></li>
+					<li>PostgreSQL : <span class="label label-info">Опытный пользователь</span></li>
+					<li>BerkeleyDB : <span class="label label-success">Уровень программиста</span></li>
+					<li>Oracle : <span class="label label-default">Имею общее представление</span></li>
+				</ol>
+			</div>
+			
+			<div class="item">
+				<span class='tl-left-block'></span>
+				<h4>Языки программирования</h4>
+				<ol>
+					<li>Perl : <span class="label label-success">Большой опыт программирования</span></li>
+					<li>SQL : <span class="label label-warning">Написание небольших программ</span></li>
+					<li>PL/SQL : <span class="label label-warning">Написание небольших программ</span></li>
+					<li>PHP : <span class="label label-warning">Написание небольших программ</span></li>
+					<li>JavaScript : <span class="label label-success">Большой опыт программирования</span></li>
+					<li>Java : <span class="label label-warning">Написание небольших программ</span></li>
+					<li>Unix shell : <span class="label label-warning">Написание небольших программ</span></li>
+					<li>Ruby : <span class="label label-default">Имею общее представление</span></li>
+					<li>Python : <span class="label label-warning">Написание небольших программ</span></li>
+					<li>Erlang : <span class="label label-default">Имею общее представление</span></li>
+					<li>Groovy : <span class="label label-default">Имею общее представление</span></li>
+					<li>LUA : <span class="label label-default">Имею общее представление</span></li>
+					<li>Dart : <span class="label label-default">Имею общее представление</span></li>
+				</ol>
+			</div>
+			<div class="item">
+				<span class='tl-right-block'></span>
+				<h4>Internet и eBusiness технологии</h4>
+				<ol>
+					<li>REST : <span class="label label-success">Отлично</span></li>
+					<li>DHTML : <span class="label label-info">Хорошо</span></li>
+					<li>XSLT : <span class="label label-default">Удовлетворительно</span></li>
+					<li>HTML : <span class="label label-info">Хорошо</span></li>
+					<li>HTML5 : <span class="label label-info">Хорошо</span></li>
+					<li>CSS : <span class="label label-info">Хорошо</span></li>
+					<li>CSS3 : <span class="label label-default">Удовлетворительно</span></li>
+					<li>XML : <span class="label label-info">Хорошо</span></li>
+					<li>XSD : <span class="label label-info">Хорошо</span></li>
+					<li>SOAP : <span class="label label-default">Удовлетворительно</span></li>
+					
+				</ol>
+			</div>
+			
+			<div class="item">
+				<span class='tl-left-block'></span>
+				<h4>Программные средства, среды, технологии и приложения.</h4>
+				<ol>
+					<li>Eclipse</li>
+					<li>NetBeans</li>
+					<li>VisualC++</li>
+					<li>Delphi</li>
+					<li>Sublime text</li>
+					<li>Komodo</li>
+					<li>Vim</li>
+					<li>Emacs</li>
+				</ol>
+			</div>
+		</div>
+	</script>
+	<script id="expirience" type="text/html">
+		<div class="tl-container">
+			<div class="timeline_container">
+				<div class="timeline">
+				    <div class="plus"></div>
+				</div>
+			</div>
+			
+			<div class="item borderclass">
+				<span class='tl-right-block'></span>
+				<h4>ЧУП Агавамин - 2007-...</h4>
+				<ul>
+					<li>
+						<h5>Выполняемые задачи</h5>
+						<ol>
+							<li>Разработка,реализация,поддержка системы поддержки( фронтенд и бекенд ) - ведущий разработчик</li>
+							<li>Рефакторинг,доработка,поддержка корпоративного GeoIP сервиса(REST-POX) - ведущий разработчик</li>
+							<li>Рефакторинг, доработка и поддержка сервиса кроссдоменной авторизации - ведущий разработчик</li>
+							<li>Реализация openid провайдера - ведущий разработчик</li>
+							<li>Разработка и реализация личного кабинета пользователя для openid провайдера - ведущий разработчик</li>
+							<li>Организация процесса разработки ( jira,cwiki )</li>
+							<li>Реализация,поддержка системы по оптимизации платежей за клики по баннерам</li>
+							<li>Корпоративная система учета рабочего времени - ведущий разработчик</li>
+							<li>Testsbox.ru - ведущий разработчик</li>
+							<li>vkontakte-testsbox - ведущий разработчик</li>
+							<li>Maillist.ru - ведущий разработчик</li>
+						</ol>
+					</li>
+					<li>
+						<h5>Используемые технологии</h5>
+						<ol>
+							<li>
+							Linux, SSL, REST, Atom, Perl, Perl-Plack, Perl-Catalyst, Unit tests, Javascript(jquery,jquery-ui,yui,backbone),
+							HTML, CSS, MySQL, sh, OPENID, SOAP, WSDL, Apache, Apache2, nginx,FASTCGI, Ajax, JIRA,
+							SVN, BerkeleyDB, Memcached, MemcachedDB
+							</li>
+						</ol>
+						<p>
+						<img src="/i/linux.jpg"/>
+						<img src="/i/freebsd_icon.gif"/>
+						<img src="/i/ssl.jpg"/>
+						<img src="/i/atom.png"/>
+						<img src="/i/perllogo.gif"/>
+						<img src="/i/catalyst.gif"/>
+						<img src="/i/js.jpg"/>
+						<img src="/i/html.jpg"/>
+						<img src="/i/jquery.jpg"/>
+						<img src="/i/jquery-ui.png"/>
+						<img src="/i/yui.jpg"/>
+						<img src="/i/backbone.jpg"/>
+						<img src="/i/css.jpg"/>
+						<img src="/i/mysql.png"/>
+						<img src="/i/openid.jpg"/>
+						<img src="/i/soap.jpg"/>
+						<img src="/i/ajax.jpg"/>
+						<img src="/i/apache_server_icon.jpg"/>
+						<img src="/i/nginx.jpg"/>
+						<img src="/i/unix-shell.jpg"/>
+						<img src="/i/jira.jpg"/>
+						<img src="/i/svn.jpg"/>
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-left-block'></span>
+				<h4>ООО СмартСистемз 2005-2007</h4>
+				<ul>
+					<li>
+						<h5>Выполняемые задачи</h5>
+						<ol>
+							<li>Разработка модулей и интерфейсов для биллинговой системы</li>
+							<li>Разработка и внедрение Антифрауд системы</li>
+							<li>Разработка клиентской и серверной частей ajax библиотеки</li>
+							<li>Разработка и внедрение системы проверки входных данных ( клиент-сервер )</li>
+							<li>Разработка установочной части системы</li>
+							<li>Разработка web фреймворка для системы</li>
+							<li>Контроль качества исполняемых страниц</li>							
+						</ol>
+					</li>
+					<li>
+						<h5>Используемые технологии</h5>
+						<ol>
+							<li>Linux, SSL, Perl, Javascript, HTML, CSS, PostgreSQL, Apache2, Dia, Eclipse,
+Selenium Core(функциональные тесты),Ajax</li>
+						</ol>
+						<p>
+						<img src="/i/linux.jpg"/>
+						<img src="/i/ssl.jpg"/>
+						<img src="/i/perllogo.gif"/>
+						<img src="/i/js.jpg"/>
+						<img src="/i/html.jpg"/>
+						<img src="/i/css.jpg"/>
+						<img src="/i/postgresqllogo.gif"/>
+						<img src="/i/eclipse.jpg"/>
+						<img src="/i/selenium.jpg"/>
+						<img src="/i/ajax.jpg"/>
+						<img src="/i/apache_server_icon.jpg"/>
+						
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-left-block'></span>
+				<p>
+				<h4>Институт управления и предпринимательства - 2003-2005</h4>
+				<ul>
+					<li>
+						<h5>Выполняемые задачи</h5>
+						<ol>
+							<li>Обслуживание комппьютерной техники в интернет классе</li>
+							<li>Автоматизированный учет времени студентов, проведенного в интернет-классе</li>
+							
+						</ol>
+					</li>
+					<li>
+						<h5>Используемые технологии</h5>
+							<p><img src="/i/perllogo.gif"/><img src="/i/apache_server_icon.jpg"/><img src="/i/freebsd_icon.gif"/><img src="/i/mysqllogo.gif"/></p>
+					</li>
+				</ul>
+				</p>
+			</div>
+		</div>
+	</script>
+	<script id="targets" type="text/html">
+		<div class="tl-container">
+			<div class="timeline_container">
+				<div class="timeline">
+				    <div class="plus"></div>
+				</div>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-right-block'></span>
+				<h4>SVG + Canvas</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-left-block'></span>
+				<h4>HTML5</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-right-block'></span>
+				<h4>BDD + Jasmine.js</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-left-block'></span>
+				<h4>Разработка под мобильные платформы</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-right-block'></span>
+				<h4>Разработка под социальные платформы</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-left-block'></span>
+				<h4>Разговорный английский</h4>
+			</div>
+		</div>
+	</script>
+	<script id="wishlist" type="text/html">
+		<div class="tl-container">
+			<div class="timeline_container">
+				<div class="timeline">
+				    <div class="plus"></div>
+				</div>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-right-block'></span>
+				<h4>Оплачиваемый отпуск - летом 4 недели</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-left-block'></span>
+				<h4>Отпуск за свой счет - изредка - максимум неделя</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-right-block'></span>
+				<h4>Работа в команде</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-left-block'></span>
+				<h4>Использование новых технологий</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-right-block'></span>
+				<h4>Парковка велосипеда</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-left-block'></span>
+				<h4>Уровень зарплаты - 2500USD</h4>
+			</div>
+		</div>
+	</script>
+	<script id="hobby" type="text/html">
+		<div class="tl-container">
+			<div class="timeline_container">
+				<div class="timeline">
+				    <div class="plus"></div>
+				</div>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-right-block'></span>
+				<h4>Велоспорт</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-left-block'></span>
+				<h4>Альпинизм</h4>
+				<p><a href="http://www.nadir-minsk.com" target="_blank">Наш клуб - НАДИР</a></p>
+				<p>Таджикистан - Фанские горы - 2012</p>
+				<p><a href="http://www.facebook.com/media/set/?set=a.1529729413265.2067788.1535622774&type=3" target="_blank">Северная Осетия - Цей 2010</a></p>
+				<p><a href="http://www.facebook.com/media/set/?set=a.1530043741123.2067824.1535622774&type=3" target="_blank">Карачаево-Черкесия - Узункол 2009</a></p>
+				<p>Кабардино-Балкария - Уллутау - 2008</p>
+				<p>Кабардино-Балкария - Уллутау - 2007</p>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-right-block'></span>
+				<h4>Туризм</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-left-block'></span>
+				<h4>Музыка</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-right-block'></span>
+				<h4>Бег</h4>
+			</div>
+			<div class="item borderclass">
+				<span class='tl-left-block'></span>
+				<h4>Фотография</h4>
+			</div>
+		</div>
+	</script>
+	
+	<script src="/js/app/config.js"></script>
+	<script src="/js/app/loader.js"></script>
+	<script src="/js/libs/loader.js"></script>
+</body>
+
+</html>
