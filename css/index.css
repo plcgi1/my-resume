@@ -15,7 +15,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #eee;
-    background: url(/i/134154_full.jpg) no-repeat center center fixed;
+    background: url(../i/134154_full.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -84,7 +84,7 @@ html, body {
   text-decoration:none;
 }
 .tl-right-block {
-  background-image: url("/i/right.png");
+  background-image: url("../i/right.png");
   display: block;
   height: 15px;
   margin-left: 408px;
@@ -97,7 +97,7 @@ html, body {
   position: absolute;
 }
 .tl-left-block {
-  background-image: url("/i/left.png");
+  background-image: url("../i/left.png");
   display: block;
   height: 15px;
   width: 13px;
