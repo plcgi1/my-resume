@@ -1,0 +1,32 @@
+[
+    {
+        "route" : "expirience",
+        "title" : "Опыт",
+        "target" : "expirienceContent"
+    },
+    {
+        "route" : "education",
+        "title" : "Образование",
+        "target" : "educationContent"
+    },    
+    {
+        "route" : "knowledge",
+        "title" : "Знания",
+        "target" : "knowledgeContent"
+    },
+    {
+        "route" : "targets",
+        "title" : "Планы освоения технологий",
+        "target" : "targets"
+    },
+    {
+        "route" : "wishlist",
+        "title" : "Пожелания по работе",
+        "target" : "wishlist"
+    },
+    {
+        "route" : "hobby",    
+        "title" : "Увлечения",
+        "target" : "hobbyContent"
+    }
+]
