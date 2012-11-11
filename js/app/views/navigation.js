@@ -15,8 +15,18 @@
             //alert(markup);
         },
         setActive: function(active){
-            $(this.el).find('li.active').removeClass('active');
-            $(this.el).find('a[href="#content/'+active+'"]').parent().addClass('active');
+            //$(this.el).find('li.active').removeClass('active');
+            //$(this.el).find('a[href="#content/'+active+'"]').parent().addClass('active');
+            
+            var lastActive = $(this.el).find('li.active:first');
+            lastActive
+            .animate({opacity:0.3},500,function(){$(this).removeClass('active')})
+            .animate({opacity:1},500);
+            
+            var li = $(this.el).find('a[href="#content/'+active+'"]').parent();
+            li
+            .animate({opacity:0.3},300,function(){li.addClass('active')})
+            .animate({opacity:1},300);
         }
     });
     
