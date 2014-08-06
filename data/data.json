@@ -5,6 +5,11 @@
         "target" : "expirienceContent"
     },
     {
+        "route" : "tests",
+        "title" : "Тестовые задания",
+        "target" : "testContent"
+    },
+    {
         "route" : "education",
         "title" : "Образование",
         "target" : "educationContent"
