@@ -7,7 +7,7 @@
     {
         "route" : "tests",
         "title" : "Тестовые задания",
-        "target" : "testContent"
+        "target" : "testsContent"
     },
     {
         "route" : "education",
